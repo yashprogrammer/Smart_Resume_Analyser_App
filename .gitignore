@@ -1,0 +1,75 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Environment
+venv/
+.env
+*.env
+.env.bak
+*.venv
+venvapp/
+testvenv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Streamlit specific
+.streamlit/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
+
+# Database
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# IDEs and editors
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.so
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+
+# PyInstaller
+dist/
+*.spec
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+env.bak
+env.local
